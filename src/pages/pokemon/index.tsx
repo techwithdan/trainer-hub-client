@@ -1,9 +1,8 @@
-import react from "react";
-import { FC } from "react";
+import react, { FC } from "react";
 
 const Pokemon: FC = (props) => {
   return (
-    <div className="bg-sky-700">
+    <div className="bg-[#ff1f1f] text-white">
       <p>Hello</p>
     </div>
   );

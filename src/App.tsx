@@ -1,14 +1,13 @@
-import logo from "./logo.svg";
 import "./styles.scss";
 import Pokemon from "./pages/pokemon";
-import Nav_Bar from "./components/navbar";
+import NavBar from "./components/navbar";
 
 function App() {
   return (
-    <>
-      <Nav_Bar />
+    <div className="h-screen w-screen bg-[#5db9ff]">
+      <NavBar />
       <Pokemon />
-    </>
+    </div>
   );
 }
 
